@@ -11,4 +11,15 @@ This repo holds only the built apps; the code is private.
 2. Open it. The app isn't signed by Apple, so macOS blocks it the first time: open
    **System Settings → Privacy & Security** and click **Open Anyway**.
 
-Your data stays on your own Mac (`~/Library/Application Support/cadence/`).
+## Windows (64-bit)
+
+1. Download `Cadence-<version>-win-x64-setup.exe`. If Edge blocks the download, open the
+   download's **…** menu and choose **Keep**.
+2. Run it. The installer isn't signed, so the first time Windows shows "Windows protected your
+   PC" (SmartScreen): click **More info**, then **Run anyway**. Cadence installs for your user
+   (no admin needed) and appears in the Start menu.
+
+## Your data
+
+Your data stays on your own computer: `~/Library/Application Support/cadence/` on a Mac,
+`%APPDATA%\cadence\` on Windows.
